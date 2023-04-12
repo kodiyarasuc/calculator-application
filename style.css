@@ -52,3 +52,91 @@ form input.equal {
 form input.operator {
   color: #33ffd8;
 }
+
+@media(max-width:415px){
+  .calculator {
+  padding: 15px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 12px;
+}
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 7px;
+}
+};
+@media(max-width:270px){
+  .calculator {
+  padding: 10px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 10px;
+  margin: 0 5px;
+}
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 5px;
+}
+}
+@media(max-width:245px ){
+  .calculator {
+  padding: 8px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 9px;
+  margin: 0 5px;
+}
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 4px;
+}
+}
+@media(max-width:255px ){
+  .calculator {
+  padding: 8px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 9px;
+  margin: 0 5px;
+}
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 29px;
+  height: 29px;
+  border-radius: 4px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  margin: 4px;
+}
+}
